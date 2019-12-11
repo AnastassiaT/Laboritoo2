@@ -1,0 +1,10 @@
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\bin\Debug\Laboritoo2.exe.config
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\bin\Debug\Laboritoo2.exe
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\bin\Debug\Laboritoo2.pdb
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\obj\Debug\Laboritoo2.Form1.resources
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\obj\Debug\Laboritoo2.Properties.Resources.resources
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\obj\Debug\Laboritoo2.csproj.GenerateResource.cache
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\obj\Debug\Laboritoo2.csproj.CoreCompileInputs.cache
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\obj\Debug\Laboritoo2.exe
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\obj\Debug\Laboritoo2.pdb
+C:\Users\opilane\source\repos\Laboritoo2\Laboritoo2\obj\Debug\Laboritoo2.Form2.resources

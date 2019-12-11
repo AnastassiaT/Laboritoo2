@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{151E6056-BC1F-497B-B50B-2EC1F09E1FA9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Laboritoo2</RootNamespace>
+    <AssemblyName>Laboritoo2</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Colors.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Colors.Designer.cs">
+      <DependentUpon>Colors.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="label1_XY.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Colors.resx">
+      <DependentUpon>Colors.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d12757334302l.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_75412253-stock-illustration-gallery.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Allalaaditud fail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w512h5121339788481gallery512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w256h2561339405847Delete256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w512h5121339788481gallery5121.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w512h5121339788481gallery5122.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galereja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gallery2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galery1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galery11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\galery12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soxranit.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soxranit1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\otritj.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palitra.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krestik.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Open-folder-add-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\document-save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-clip-art-scalable-vector-graphics-computer-icons-p-exit-svg-png-icon-free-download-380770-online-5b67625f0f8541.1143985015335020470636.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Undo-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\w256h2561339195944Redo256x256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen-edit-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_104830664-stock-illustration-art-palette-icon-with-color.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\461098.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\krasivaya_zima_peyzagi_foto_03-1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
